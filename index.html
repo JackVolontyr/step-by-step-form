@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Form</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" href="img/favicon.ico" />
+
+  <!-- css -->
+  <link rel="stylesheet" href="css/style.css" />
+
+</head>
+<body>
+
+  <!-- Trigger/Open The Modal -->
+  <button data-modal-open>Open Modal</button>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <p>end</p>
+
+  <!-- The Modal -->
+  <div class="modal" data-modal-modal>
+
+    <span class="close" data-modal-close>&times;</span>
+
+    <!-- Modal content -->
+    <div class="modal__content">
+
+      <div class="modal__body">
+
+        <form class="" action="" method="" data-step-slide>
+
+          <!-- >> Step 1 -->
+          <div class="step--wrap">
+            <div class="step step--one">
+              <div class="step__header">
+                Select kitchen shape
+              </div>
+
+              <div class="step__main" data-image-in data-shape-in>
+                <!-- 1 -->
+                <input data-checker class="step__check" type="radio" name="kitchen" value="L-shape" id="kitchenL">
+                <label for="kitchenL" class="minibox minibox--3">
+                  <div class="minibox__check"><img src="img/checked.png" /></div>
+                  <div class="minibox__title">L-shape</div>
+                  <img data-image class="minibox__picture" src="img/step1-1.png" alt="" />
+                </label>
+                <!-- 2 -->
+                <input data-checker class="step__check" type="radio" name="kitchen" value="U-shape" id="kitchenU">
+                <label for="kitchenU" class="minibox minibox--3">
+                  <div class="minibox__check"><img src="img/checked.png" /></div>
+                  <div class="minibox__title">U-shape</div>
+                  <img data-image class="minibox__picture" src="img/step1-2.png" alt="" />
+                </label>
+                <!-- 3 -->
+                <input data-checker class="step__check" type="radio" name="kitchen" value="G-shape" id="kitchenG">
+                <label for="kitchenG" class="minibox minibox--3">
+                  <div class="minibox__check"><img src="img/checked.png" /></div>
+                  <div class="minibox__title">Galley</div>
+                  <img data-image class="minibox__picture" src="img/step1-3.png" alt="" />
+                </label>
+
+                <div class="with-island">
+          				<input data-with-island class="step__check" type="checkbox" name="withIsland" value="With island" id="withIsland">
+                  <label for="withIsland" class="minilist">
+                    <div class="minilist__check"><img src="img/checked.png" /></div>
+                    <div class="minilist__title">With island</div>
+                  </label>
+        				</div>
+              </div>
+
+              <div class="step__footer">
+                <button hidden disabled class="step__prev" type="button" name="" data-prev="0%" tabindex="-1">
+                  &laquo; Prev
+                </button>
+                <button disabled class="step__next" type="button" name="" data-next="40%" tabindex="-1">
+                  Next &raquo;
+                </button>
+              </div>
+            </div>
+          </div>
+          <!-- Step 1 << -->
+
+          <!-- >> Step 2 -->
+          <div class="step--wrap">
+            <div class="step step--two">
+              <div class="step__header">
+                Please enter size of your kitchen
+              </div>
+
+              <div class="step__main">
+
+                <div class="container--center" data-size-in>
+                  <input
+                    data-size data-size-width type="number" name="" value="" id="" min="0"
+                    class="step__check--number input--top-center" placeholder="In linear feet" tabindex="-1"
+                  >
+                  <input
+                    data-size data-size-height type="number" name="" value="" id="" min="0"
+                    class="step__check--number input--middle" placeholder="In linear feet" tabindex="-1"
+                  >
+                  <img data-image-out src="img/pic--num.png" alt="" class="step__photo">
+                </div>
+              </div>
+
+              <div class="with-island with-island--number" data-with-island-number data-length-in>
+                <div class="minilist__title">Island length:</div>
+                <input
+                  data-size data-length-height type="number" name="" value="" id="" min="0"
+                  class="step__check--number" placeholder="Length" tabindex="-1"
+                >
+                <input
+                  data-size data-length-width type="number" name="" value="" id="" min="0"
+                  class="step__check--number" placeholder="Width" tabindex="-1"
+                >
+              </div>
+
+              <div class="step__footer">
+                <button class="step__prev" type="button" name="" data-prev="20%" tabindex="-1">
+                  &laquo; Prev
+                </button>
+                <button disabled class="step__next" type="button" name="" data-next="60%" tabindex="-1">
+                  Next &raquo;
+                </button>
+              </div>
+            </div>
+          </div>
+          <!-- Step 2 << -->
+
+          <!-- >> Step 3 -->
+          <div class="step--wrap">
+            <div class="step step--three">
+              <div class="step__header">
+                Select type of materials
+              </div>
+
+              <div class="step__main">
+                <img src="img/step3-photo.png" alt="" class="step__photo">
+
+                <div class="container--right" data-materials-in>
+                  <!-- 1 -->
+                  <input data-checker class="step__check" type="radio" name="materials" value="veneer" id="veneer">
+                  <label for="veneer" class="minilist">
+                    <div class="minilist__check"><img src="img/checked.png" /></div>
+                    <div class="minilist__title">veneer</div>
+                  </label>
+                  <!-- 2 -->
+                  <input data-checker class="step__check" type="radio" name="materials" value="laquer" id="laquer">
+                  <label for="laquer" class="minilist">
+                    <div class="minilist__check"><img src="img/checked.png" /></div>
+                    <div class="minilist__title">laquer (gloss or matte)</div>
+                  </label>
+                  <!-- 3 -->
+                  <input data-checker class="step__check" type="radio" name="materials" value="laminate" id="laminate">
+                  <label for="laminate" class="minilist">
+                    <div class="minilist__check"><img src="img/checked.png" /></div>
+                    <div class="minilist__title">laminate</div>
+                  </label>
+                  <!-- 4 -->
+                  <input data-checker class="step__check" type="radio" name="materials" value="acrylic" id="acrylic">
+                  <label for="acrylic" class="minilist">
+                    <div class="minilist__check"><img src="img/checked.png" /></div>
+                    <div class="minilist__title">acrylic</div>
+                  </label>
+                  <!-- 5 -->
+                <input data-checker class="step__check" type="radio" name="materials" value="termofoil" id="termofoil">
+                <label for="termofoil" class="minilist">
+                  <div class="minilist__check"><img src="img/checked.png" /></div>
+                  <div class="minilist__title">termofoil</div>
+                </label>
+                  <!-- 6 -->
+                  <input data-checker class="step__check" type="radio" name="materials" value="termofused" id="termofused">
+                  <label for="termofused" class="minilist">
+                    <div class="minilist__check"><img src="img/checked.png" /></div>
+                    <div class="minilist__title">termofused</div>
+                  </label>
+                </div>
+              </div>
+
+              <div class="step__footer">
+                <button class="step__prev" type="button" name="" data-prev="40%" tabindex="-1">
+                  &laquo; Prev
+                </button>
+                <button disabled class="step__next" type="button" name="" data-next="80%" tabindex="-1">
+                  Next &raquo;
+                </button>
+              </div>
+            </div>
+          </div>
+          <!-- Step 3 << -->
+
+          <!-- >> Step 4 -->
+          <div class="step--wrap">
+            <div class="step step--four">
+              <div class="step__header">
+                Select configuration
+              </div>
+
+              <div class="step__main">
+
+                <div class="half">
+                  <!-- 1 -->
+                  <div class="half__box" data-configuration-in-a>
+                    <img src="img/step-conf.jpg" alt="" class="step__photo">
+                    <input data-checker class="step__check" type="radio" name="configuration" value="american" id="american">
+                    <label for="american" class="minilist">
+                      <div class="minilist__check"><img src="img/checked.png" /></div>
+                      <div class="minilist__title">
+                        American <br/>
+                        (doors on the top,&nbsp;draws
+                        with&nbsp;doors on the bottom)
+                      </div>
+                    </label>
+                  </div>
+
+                  <!-- 2 -->
+                  <div class="half__box" data-configuration-in-e>
+                    <img src="img/step-conf.jpg" alt="" class="step__photo">
+                    <input data-checker class="step__check" type="radio" name="configuration" value="european" id="european">
+                    <label for="european" class="minilist">
+                      <div class="minilist__check"><img src="img/checked.png" /></div>
+                      <div class="minilist__title">
+                        European <br/>
+                        (lift up doors on the&nbsp;top,
+                        3&nbsp;draws on the bottom)
+                      </div>
+                    </label>
+                  </div>
+
+                </div>
+
+              </div>
+
+              <div class="step__footer">
+                <button class="step__prev" type="button" name="" data-prev="60%" tabindex="-1">
+                  &laquo; Prev
+                </button>
+                <button disabled class="step__next" type="button" name="" data-next="100%" tabindex="-1">
+                  Next &raquo;
+                </button>
+              </div>
+            </div>
+          </div>
+          <!-- Step 4 << -->
+
+          <!-- >> Step 5 -->
+          <div class="step--wrap">
+            <div class="step step--five">
+              <div class="step__header">
+                Tell us about yourself
+              </div>
+
+              <div class="step__main">
+
+                <div class="total">
+
+                  <!-- total top -->
+                  <div class="total--top half" data-total-grid>
+                    <!-- 1 -->
+                    <div class="half__box third__box">
+                      <img src="img/total-shape.png" alt="" />
+                      <p>Kitchen Shape</p>
+                      <input
+                        type="text" name="" value="shape" data-total-shape disabled
+                        class="step__check--number"
+                      >
+                    </div>
+                    <!-- 2 -->
+                    <div class="half__box third__box">
+                      <img src="img/total-size.png" alt="" />
+                      <p>Kitchen Size</p>
+                      <input
+                        type="text" name="" value="size" data-total-size disabled
+                        class="step__check--number"
+                      >
+                    </div>
+                    <!-- 3 -->
+                    <div class="half__box third__box total__island">
+                      <img src="img/total-length.png" alt="" />
+                      <p>Island length</p>
+                      <input
+                        type="text" name="" value="length" data-total-length disabled
+                        class="step__check--number"
+                      >
+                    </div>
+                  </div>
+
+                  <!-- total bottom -->
+                  <div class="total--bottom half">
+                    <!-- 1 -->
+                    <div class="half__box">
+                      <img src="img/total-materials.png" alt="" />
+                      <p>Materials</p>
+                      <input
+                        type="text" name="" value="materials" data-total-materials disabled
+                        class="step__check--number"
+                      >
+                    </div>
+                    <!-- 2 -->
+                    <div class="half__box">
+                      <img src="img/total-configuration.png" alt="" />
+                      <p>Configuration</p>
+                      <input
+                        type="text" name="" value="configuration" data-total-configuration disabled
+                        class="step__check--number"
+                      >
+                    </div>
+                  </div>
+
+                  <div class="step__footer">
+                    <button class="step__prev" type="button" name="" data-prev="80%" tabindex="-1">
+                      Prev
+                    </button>
+                  </div>
+                </div>
+
+                <div class="form-style">
+                  <!-- 1 -->
+                  <input
+                    class="details__input" type="text" name="" value=""
+                    data-details tabindex="-1" placeholder="Full Name"
+                  >
+                  <!-- 2 -->
+                  <input
+                    class="details__input" type="text" name="" value=""
+                    data-details tabindex="-1" placeholder="Contact number"
+                  >
+                  <!-- 3 -->
+                  <input
+                    class="details__input" type="email" name="" value=""
+                    data-details tabindex="-1" placeholder="E-mail"
+                  >
+                  <!-- 4 -->
+                  <input
+                    class="details__input" type="text" name="" value=""
+                    data-details tabindex="-1" placeholder="Location of installation"
+                  >
+                  <!-- 5 -->
+                  <div class="last-checker">
+                    <input
+                      class="details__input--checker" checked type="checkbox" name="" value=""
+                      id="news" tabindex="-1"
+                    >
+                    <label for="news">
+                      <span class="news__checker"><img src="img/news-checked.png" /></span>
+                      <span class="details__title--checker">
+                        Get exclusive offers and useful news from us
+                      </span>
+                    </label>
+                  </div>
+                  <!-- next -->
+                  <div class="step__footer">
+                    <button disabled class="step__next" type="button" name="" data-next="100%" tabindex="-1">
+                      Get my results
+                    </button>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+          <!-- Step 4 << -->
+
+          <!-- >> Finish -->
+          <div class="step--wrap">
+            <div class="finish">
+              <img class="finish__picture" src="img/logo.png" alt="" />
+
+              <p class="finish__text">
+                Thank you for your interest.<br/>
+                <b>We’ll contact you within 24 hours!</b><br/>
+                For any urgent question, contact us:<br/>
+                <a href="tel:3033799365" tabindex="-1">Tel. 303-379-9365;</a><br/>
+                <a href="mailto:office@baczewskiluxury.com" tabindex="-1">office@baczewskiluxury.com</a><br/>
+              </p>
+            </div>
+          </div>
+          <!-- Finish << -->
+
+        </form>
+
+      </div>
+
+      <div class="modal__footer">
+        <div class="progress__panel">
+          <ul class="progress__list">
+            <li>Shape</li>
+            <li>Measure</li>
+            <li>Materials</li>
+            <li>Cabinets</li>
+            <li>Quote</li>
+          </ul>
+
+          <div class="progress__line" data-progress-line>
+            <ul class="progress__list progress__list--active">
+              <li>Shape</li>
+              <li>Measure</li>
+              <li>Materials</li>
+              <li>Cabinets</li>
+              <li>Quote</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+  <!-- js -->
+  <script src="js/app.js" defer></script>
+
+</body>
+</html>
